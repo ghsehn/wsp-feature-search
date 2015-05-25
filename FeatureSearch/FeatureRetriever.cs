@@ -7,10 +7,10 @@ using System.Text.RegularExpressions;
 
 namespace FeatureSearch
 {
-    class FeatureRetriever
+    public class FeatureRetriever
     {
         public string DirectoryPath { get; set; }
-        public string DecompressedDirectoryPath { get { return DirectoryPath + Path.DirectorySeparatorChar + "decompressed"; } }
+        public string DecompressedDirectoryPath { get { return Path.Combine(DirectoryPath, "decompressed"); } }
 
         public FeatureRetriever(string wspFolderPath)
         {
@@ -30,7 +30,7 @@ namespace FeatureSearch
             foreach (string wspFile in wspFiles)
             {
                 string fileName = Path.GetFileName(wspFile);
-                string folderPath = DecompressedDirectoryPath + Path.DirectorySeparatorChar + fileName;
+                string folderPath = Path.Combine(DecompressedDirectoryPath, fileName);
 
                 new CabInfo(wspFile).Unpack(folderPath);
 

@@ -1,0 +1,13 @@
+C:\Users\guilherme.sehn\Documents\Visual Studio 2012\Projects\FeatureSearch\FeatureSearchUnitTests\bin\Release\FeatureSearchUnitTests.dll
+C:\Users\guilherme.sehn\Documents\Visual Studio 2012\Projects\FeatureSearch\FeatureSearchUnitTests\bin\Release\FeatureSearchUnitTests.pdb
+C:\Users\guilherme.sehn\Documents\Visual Studio 2012\Projects\FeatureSearch\FeatureSearchUnitTests\obj\Release\FeatureSearchUnitTests.csprojResolveAssemblyReference.cache
+C:\Users\guilherme.sehn\Documents\Visual Studio 2012\Projects\FeatureSearch\FeatureSearchUnitTests\obj\Release\FeatureSearchUnitTests.dll
+C:\Users\guilherme.sehn\Documents\Visual Studio 2012\Projects\FeatureSearch\FeatureSearchUnitTests\obj\Release\FeatureSearchUnitTests.pdb
+C:\Users\guilherme.sehn\Documents\Visual Studio 2012\Projects\FeatureSearch\FeatureSearchUnitTests\bin\Release\FeatureSearch.exe
+C:\Users\guilherme.sehn\Documents\Visual Studio 2012\Projects\FeatureSearch\FeatureSearchUnitTests\bin\Release\Microsoft.Deployment.Compression.Cab.dll
+C:\Users\guilherme.sehn\Documents\Visual Studio 2012\Projects\FeatureSearch\FeatureSearchUnitTests\bin\Release\Microsoft.Deployment.Compression.dll
+C:\Users\guilherme.sehn\Documents\Visual Studio 2012\Projects\FeatureSearch\FeatureSearchUnitTests\bin\Release\FeatureSearch.pdb
+C:\Users\guilherme.sehn\Documents\Visual Studio 2012\Projects\FeatureSearch\FeatureSearchUnitTests\bin\Release\Microsoft.Deployment.Compression.Cab.xml
+C:\Users\guilherme.sehn\Documents\Visual Studio 2012\Projects\FeatureSearch\FeatureSearchUnitTests\bin\Release\Microsoft.Deployment.Compression.xml
+C:\Users\guilherme.sehn\documents\visual studio 2012\Projects\FeatureSearch\FeatureSearchUnitTests\bin\Release\UnitTestData\WSPs\Project1.wsp
+C:\Users\guilherme.sehn\documents\visual studio 2012\Projects\FeatureSearch\FeatureSearchUnitTests\bin\Release\UnitTestData\WSPs\Project2.wsp

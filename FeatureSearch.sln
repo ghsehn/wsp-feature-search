@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureSearch", "FeatureSearch\FeatureSearch.csproj", "{82477654-C8AB-44E6-8A98-2923277721B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureSearchUnitTests", "FeatureSearchUnitTests\FeatureSearchUnitTests.csproj", "{8BF84557-37DE-4C0D-80FF-CACFFA9E05D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{82477654-C8AB-44E6-8A98-2923277721B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82477654-C8AB-44E6-8A98-2923277721B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82477654-C8AB-44E6-8A98-2923277721B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF84557-37DE-4C0D-80FF-CACFFA9E05D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF84557-37DE-4C0D-80FF-CACFFA9E05D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF84557-37DE-4C0D-80FF-CACFFA9E05D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF84557-37DE-4C0D-80FF-CACFFA9E05D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

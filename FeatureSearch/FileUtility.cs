@@ -2,7 +2,7 @@
 
 namespace FeatureSearch
 {
-    class FileUtility
+    public class FileUtility
     {
         /// <summary>
         /// Deletes a directory recursively even when it contains read-only files.
