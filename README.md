@@ -1,4 +1,4 @@
-# WSP Feature Search
+# WSP Feature Search [![Build Status](https://travis-ci.org/ghsehn/wsp-feature-search.svg?branch=master)](https://travis-ci.org/ghsehn/wsp-feature-search.svg?branch=master)
 
 This console application aims to help finding a specific SharePoint feature by its ID inside a bunch of solution packages (WSP files).
 
