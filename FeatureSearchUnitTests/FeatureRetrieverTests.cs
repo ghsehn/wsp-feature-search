@@ -1,19 +1,19 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.IO;
-using FeatureSearch;
+﻿using FeatureSearch;
+using FeatureSearchUnitTests.Attributes;
+using System;
 using System.Collections.Generic;
+using System.IO;
+using Xunit;
 
 namespace FeatureSearchUnitTests
 {
-    [TestClass]
     public class FeatureRetrieverTests
     {
-        private const string WspFolderName = "WSPs";
+        private const string WspFolderName = "UnitTestData/WSPs";
 
-        [TestMethod]
-        [DeploymentItem(@"UnitTestData\WSPs\Project1.wsp", WspFolderName)]
-        [DeploymentItem(@"UnitTestData\WSPs\Project2.wsp", WspFolderName)]
+        [Fact]
+        //[DeploymentItem(@"UnitTestData/WSPs/Project1.wsp")]
+        //[DeploymentItem(@"UnitTestData/WSPs/Project2.wsp")]
         public void GetFeaturesPerWSPTest()
         {
             string wspFolderPath = Path.Combine(System.Environment.CurrentDirectory, WspFolderName);
@@ -34,9 +34,9 @@ namespace FeatureSearchUnitTests
                 {"Project2.wsp", secondWSP},
             };
 
-            CollectionAssert.AreEqual(dictionary.Keys, featuresPerWSP.Keys);
-            CollectionAssert.AreEqual(firstWSP, featuresPerWSP["Project1.wsp"]);
-            CollectionAssert.AreEqual(secondWSP, featuresPerWSP["Project2.wsp"]);
+            Assert.Equal(dictionary.Keys, featuresPerWSP.Keys);
+            Assert.Equal(firstWSP, featuresPerWSP["Project1.wsp"]);
+            Assert.Equal(secondWSP, featuresPerWSP["Project2.wsp"]);
         }
     }
 }

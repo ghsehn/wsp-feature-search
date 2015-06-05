@@ -1,4 +1,8 @@
+packages/
 FeatureSearch/bin
 FeatureSearch/obj
+FeatureSearchUnitTests/bin
+FeatureSearchUnitTests/obj
+FeatureSearchUnitTests/obj/Debug/*.cache
 TestResults/
 *.suo

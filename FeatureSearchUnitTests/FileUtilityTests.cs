@@ -1,15 +1,12 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using FeatureSearch;
 using System.IO;
-using System.Reflection;
-using FeatureSearch;
+using Xunit;
 
 namespace FeatureSearchUnitTests
 {
-    [TestClass]
     public class FileUtilityTests
     {
-        [TestMethod]
+        [Fact]
         public void RecursiveDeleteDirectoryTest()
         {
             string path = Path.Combine(System.Environment.CurrentDirectory, "FileUtilityTests");
@@ -36,7 +33,7 @@ namespace FeatureSearchUnitTests
 
             // Deletes the folder
             FileUtility.RecursiveDeleteDirectory(path);
-            Assert.IsFalse(Directory.Exists(path));
+            Assert.False(Directory.Exists(path));
         }
     }
 }
