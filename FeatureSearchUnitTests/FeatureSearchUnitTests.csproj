@@ -62,7 +62,6 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="Attributes\DeploymentItem.cs" />
     <Compile Include="FeatureRetrieverTests.cs" />
     <Compile Include="FileUtilityTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

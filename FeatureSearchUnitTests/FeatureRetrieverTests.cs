@@ -1,5 +1,4 @@
 ﻿using FeatureSearch;
-using FeatureSearchUnitTests.Attributes;
 using System;
 using System.Collections.Generic;
 using System.IO;
