@@ -12,8 +12,6 @@ namespace FeatureSearchUnitTests
         private const string WspFolderName = "UnitTestData/WSPs";
 
         [Fact]
-        //[DeploymentItem(@"UnitTestData/WSPs/Project1.wsp")]
-        //[DeploymentItem(@"UnitTestData/WSPs/Project2.wsp")]
         public void GetFeaturesPerWSPTest()
         {
             string wspFolderPath = Path.Combine(System.Environment.CurrentDirectory, WspFolderName);
